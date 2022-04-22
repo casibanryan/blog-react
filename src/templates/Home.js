@@ -4,6 +4,10 @@ import NavBar from './NavBar';
 import Footer from './Footer';
 import blogData from './js/blogData';
 import React from 'react';
+import { Link } from 'react-router-dom';
+
+
+
 
 function Home() {
     return (
