@@ -6,8 +6,6 @@ import blogData from './js/blogData';
 import React from 'react';
 
 function Home() {
-
-
     return (
         <>
             <NavBar />
