@@ -29,21 +29,20 @@ function Home() {
                     <div className="col-md-10 col-lg-8 col-xl-7">
 
                         <div className="post-preview">
-
-                            for(let x=0; x < blogData.length; x++) {
-                                <a href="post.html">
+                            {blogData.map((value, index) => (
                                 <h2 className="post-title">
-                                    {blogData[x].title}
-                                    </h2>
-                                <h3 className="post-subtitle">Problems look mighty small from 150 miles up</h3>
-                                </a>
-                                <p className="post-meta">
-                                    Posted by
-                                    <a href="#!">Start Bootstrap</a>
-                                    on September 24, 2022
-                                </p>
-                            }
+                                    {value}
+                                </h2>
+                            ))}
 
+                            <a href="post.html">
+                                <h3 className="post-subtitle">Problems look mighty small from 150 miles up</h3>
+                            </a>
+                            <p className="post-meta">
+                                Posted by
+                                <a href="#!">Start Bootstrap</a>
+                                on September 24, 2022
+                            </p>
                         </div>
                         <hr className="my-4" />
 
