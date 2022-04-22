@@ -34,18 +34,14 @@ function Home() {
                                 <a href="post.html">
                                     <h2 className="post-title" key={index}>  {blog.title}  </h2>
                                     <h3 className="post-subtitle" key={index}> {blog.subtitle} </h3>
-                                </a>
-                                <React.Fragment>
                                     <p className="post-meta">
-                                        Posted by
-                                        <a href="#!">Start Bootstrap</a>
-                                        on September 24, 2022
+                                        dsd{blog.postedDate}
                                     </p>
-                                </React.Fragment>
+                                </a>
                             ))}
                         </div>
-                        <hr className="my-4" />
 
+                        <hr className="my-4" />
                         <div className="d-flex justify-content-end mb-4"><a className="btn btn-primary text-uppercase" href="#!">Older
                             Posts →</a></div>
                     </div>

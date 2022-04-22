@@ -1,3 +1,8 @@
+const date = new Date;
+const month = date.getMonth();
+const day = date.getDay();
+const year = date.getFullYear();
+
 
 const blogData = [
   {
@@ -5,6 +10,7 @@ const blogData = [
     subtitle: 'Amazing underwater life',
     content: 'One of the things that makes Cebu popular is its awesome marine life and diving spots. Just a few minutes drive away from the main city will take you to diving spots with Mactan Island where you can witness a school of sardines swimming every now and then. There are also great diving sites along the Mactan Channel if you don’t want to travel far. But if you want some deep diving adventure, drive 2-4 hours north or south. You can find some school of sardines, thresher sharks, whale sharks and sea turtles along Moalboal’s Panagsama Beach and Pescador Island in the south western region. Malapascua Island, a 3-hr drive up north and a boat ride away is famous for its white tip sharks.'
     ,
+    postedDate: `${month, day}`,
     img: 'https://i0.wp.com/thetravellingfeet.com/wp-content/uploads/2020/06/sea-turtles-in-pescador-island-cebu.jpg?resize=696%2C522&ssl=1'
   },
   {
