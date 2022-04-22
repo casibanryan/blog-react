@@ -29,9 +29,9 @@ function Home() {
                     <div className="col-md-10 col-lg-8 col-xl-7">
 
                         <div className="post-preview">
-                            {blogData.map((value, index) => (
+                            {blogData.map((blog, index) => (
                                 <h2 className="post-title" key={index}>
-                                    {value}
+                                    {blog.title}
                                 </h2>
                             ))}
 
