@@ -30,7 +30,7 @@ function Home() {
 
                         <div className="post-preview">
                             {blogData.map((value, index) => (
-                                <h2 className="post-title">
+                                <h2 className="post-title" key={index}>
                                     {value}
                                 </h2>
                             ))}
