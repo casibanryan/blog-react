@@ -8,7 +8,7 @@ const blogData = [
     img: 'https://i0.wp.com/thetravellingfeet.com/wp-content/uploads/2020/06/sea-turtles-in-pescador-island-cebu.jpg?resize=696%2C522&ssl=1'
   },
   {
-    title: 'With a mountainous spine and abundant rainforest, Cebu is home to an incredible number of spectacular waterfalls.',
+    title: 'Cebu is home to an incredible number of spectacular waterfalls.',
     subtitle: 'Living waterfalls',
     content: "With a mountainous spine and abundant rainforest, Cebu is home to an incredible number of spectacular waterfalls. Kawasan Falls is arguably the most beguiling, boasting a beautiful setting and a pool of water that is an extraordinary shade of blue. It’s perfect for thrill-seekers too: the area is a popular spot for waterfall jumping, rapelling, rock climbing and canyoning. Tumalog Falls, near Oslob, is worth a visit too. Inside the cascade you'll find lots of convenient natural nooks and crannies, forming perfect seats for a therapeutic water massage.",
     img: 'https://cdn2.wanderlust.co.uk/media/1024/cropped-dreamstime_xxl_70061264.jpg?anchor=center&mode=crop&width=1440&height=0&format=auto&quality=90&rnd=131546994040000000'

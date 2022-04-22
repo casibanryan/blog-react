@@ -32,14 +32,14 @@ function Home() {
                             {blogData.map((blog, index) => (
                                 <a href="post.html">
                                     <h2 className="post-title" key={index}>  {blog.title}  </h2>
-                                    <h3 className="post-subtitle"> {blog.subtitle} </h3>
+                                    <h3 className="post-subtitle" key={index}> {blog.subtitle} </h3>
                                 </a>
-                            ))}
-                            <p className="post-meta">
+                                <p className="post-meta">
                                 Posted by
                                 <a href="#!">Start Bootstrap</a>
                                 on September 24, 2022
-                            </p>
+                             </p>
+                            ))}
                         </div>
                         <hr className="my-4" />
 
