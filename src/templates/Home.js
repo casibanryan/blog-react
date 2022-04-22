@@ -30,14 +30,11 @@ function Home() {
 
                         <div className="post-preview">
                             {blogData.map((blog, index) => (
-                                <h2 className="post-title" key={index}>
-                                    {blog.title}
-                                </h2>
+                                <a href="post.html">
+                                    <h2 className="post-title" key={index}>  {blog.title}  </h2>
+                                    <h3 className="post-subtitle"> {blog.subtitle} </h3>
+                                </a>
                             ))}
-
-                            <a href="post.html">
-                                <h3 className="post-subtitle">Problems look mighty small from 150 miles up</h3>
-                            </a>
                             <p className="post-meta">
                                 Posted by
                                 <a href="#!">Start Bootstrap</a>
