@@ -3,6 +3,7 @@ import homeBg from './assets/img/home-bg.png';
 import NavBar from './NavBar';
 import Footer from './Footer';
 import blogData from './js/blogData';
+import React from 'react';
 
 function Home() {
 
@@ -34,11 +35,13 @@ function Home() {
                                     <h2 className="post-title" key={index}>  {blog.title}  </h2>
                                     <h3 className="post-subtitle" key={index}> {blog.subtitle} </h3>
                                 </a>
-                                <p className="post-meta">
-                                Posted by
-                                <a href="#!">Start Bootstrap</a>
-                                on September 24, 2022
-                             </p>
+                                <React.Fragment>
+                                    <p className="post-meta">
+                                        Posted by
+                                        <a href="#!">Start Bootstrap</a>
+                                        on September 24, 2022
+                                    </p>
+                                </React.Fragment>
                             ))}
                         </div>
                         <hr className="my-4" />
