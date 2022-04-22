@@ -29,10 +29,12 @@ function Home() {
 
                         {blogData.map((blog, index) => (
                             <div className="post-preview" key={index}>
-                                <a href="post.html" >
+                                <Link to={`post/${blog.subtitle = (name) => (
+                                    name.split(' ').join('-')
+                                )}`}>
                                     <h2 className="post-title" >  {blog.title}  </h2>
                                     <h3 className="post-subtitle"> {blog.subtitle} </h3>
-                                </a>
+                                </Link>
                                 <p className="post-meta" >
                                     Posted by Resty Ochea on April 23, 2022
                                 </p>
@@ -50,7 +52,6 @@ function Home() {
             <Footer />
             <Helmet>
                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-                <script src="./js/scripts.js" type='text/javascript' />
             </Helmet>
         </>
     );

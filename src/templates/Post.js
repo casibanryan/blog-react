@@ -1,6 +1,7 @@
 import NavBar from "./NavBar";
 import Footer from './Footer';
 import postBg from './assets/img/post-bg.jpg';
+import { useParams } from 'react-router-dom';
 
 function Post() {
 
