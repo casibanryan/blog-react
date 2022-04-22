@@ -38,7 +38,7 @@ function Home() {
                                     <h3 className="post-subtitle"> {blog.subtitle} </h3>
                                 </Link>
                                 <p className="post-meta" >
-                                    Posted by Resty Ochea on April 23, 2022
+                                    Posted by Resty Ochea on {blog.postedOn}
                                 </p>
                                 <hr className="my-4" />
                             </div>
