@@ -34,8 +34,8 @@ function Home() {
                                 <a href="post.html">
                                     <h2 className="post-title" key={index}>  {blog.title}  </h2>
                                     <h3 className="post-subtitle" key={index}> {blog.subtitle} </h3>
-                                    <p className="post-meta">
-                                        dsd{blog.postedDate}
+                                    <p className="post-meta" key={index}>
+                                        Posted by Resty Ochea on April 23, 2022
                                     </p>
                                 </a>
                             ))}
