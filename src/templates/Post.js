@@ -6,14 +6,14 @@ function Post() {
     return (
         <>
             <NavBar />
-            <header class="masthead" style="background-image: url('assets/img/post-bg.jpg')">
-                <div class="container position-relative px-4 px-lg-5">
-                    <div class="row gx-4 gx-lg-5 justify-content-center">
-                        <div class="col-md-10 col-lg-8 col-xl-7">
-                            <div class="post-heading">
+            <header className="masthead" style="background-image: url('assets/img/post-bg.jpg')">
+                <div className="container position-relative px-4 px-lg-5">
+                    <div className="row gx-4 gx-lg-5 justify-content-center">
+                        <div className="col-md-10 col-lg-8 col-xl-7">
+                            <div className="post-heading">
                                 <h1>title</h1>
-                                <h2 class="subheading">Problems look mighty small from 150 miles up</h2>
-                                <span class="meta">
+                                <h2 className="subheading">Problems look mighty small from 150 miles up</h2>
+                                <span className="meta">
                                     Posted by
                                     <a href="#!">Start Bootstrap</a>
                                     on August 24, 2022
@@ -24,10 +24,10 @@ function Post() {
                 </div>
             </header>
 
-            <article class="mb-4">
-                <div class="container px-4 px-lg-5">
-                    <div class="row gx-4 gx-lg-5 justify-content-center">
-                        <div class="col-md-10 col-lg-8 col-xl-7">
+            <article className="mb-4">
+                <div className="container px-4 px-lg-5">
+                    <div className="row gx-4 gx-lg-5 justify-content-center">
+                        <div className="col-md-10 col-lg-8 col-xl-7">
                             <p>Never in all their history have men been able truly to conceive of the world as one: a single
                                 sphere, a globe, having the qualities of a globe, a round earth in which all the directions
                                 eventually meet, in which there is no center because every point, or none, is center — an equal
@@ -45,13 +45,13 @@ function Post() {
                                 will, the experience most certainly changes your perspective. The things that we share in our
                                 world are far more valuable than those which divide us.</p>
 
-                            <h2 class="section-heading">Reaching for the Stars</h2>
+                            <h2 className="section-heading">Reaching for the Stars</h2>
                             <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the
                                 size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked
                                 so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart.
                                 Seeing this has to change a man.</p>
-                            <a href="#!"><img class="img-fluid" src="assets/img/post-sample-image.jpg" alt="..." /></a>
-                            <span class="caption text-muted">To go places and do things that have never been done before –
+                            <a href="#!"><img className="img-fluid" src="assets/img/post-sample-image.jpg" alt="..." /></a>
+                            <span className="caption text-muted">To go places and do things that have never been done before –
                                 that’s what living is all about.</span>
                             <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year
                                 mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go
