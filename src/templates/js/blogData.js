@@ -2,13 +2,13 @@ const date = new Date();
 const month = ["January", "February", "March", "April", "May", "June", "July",
   "August", "September", "October", "November", "December"];
 // day 
-const dd = date.getDay();
+const randomDay = Math.random() * 29 + 1;
 //year
-const yyyy = date.getFullYear();
+const year = date.getFullYear();
 //month
-const mm = date.getMonth();
+const randomMonth = Math.random() * 11 + 1;
 // format
-const postedDate = `${month[mm]}, ${dd} ${yyyy}`;
+const postedDate = `${month[randomMonth]}, ${randomDay} ${year}`;
 
 const blogData = [
   {
