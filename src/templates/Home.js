@@ -33,9 +33,7 @@ function Home() {
 
                         {blogData.map((blog, index) => (
                             <div className="post-preview" key={index}>
-                                <Link to={`post/${blog.subtitle = (name) => (
-                                    name.split(' ').join('-')
-                                )}`}>
+                                <Link to={`post/${blog.subtitle.split(' ').join('-')}`}>
                                     <h2 className="post-title" >  {blog.title}  </h2>
                                     <h3 className="post-subtitle"> {blog.subtitle} </h3>
                                 </Link>
