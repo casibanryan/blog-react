@@ -29,19 +29,21 @@ function Home() {
                 <div className="row gx-4 gx-lg-5 justify-content-center">
                     <div className="col-md-10 col-lg-8 col-xl-7">
 
-                        <div className="post-preview">
-                            {blogData.map((blog, index) => (
+
+                        {blogData.map((blog, index) => (
+                            <div className="post-preview">
                                 <a href="post.html">
                                     <h2 className="post-title" key={index}>  {blog.title}  </h2>
                                     <h3 className="post-subtitle" key={index}> {blog.subtitle} </h3>
-                                    <p className="post-meta" key={index}>
-                                        Posted by Resty Ochea on April 23, 2022
-                                    </p>
                                 </a>
-                            ))}
-                        </div>
+                                <p className="post-meta" key={index}>
+                                    Posted by Resty Ochea on April 23, 2022
+                                </p>
+                                <hr className="my-4" />
+                            </div>
+                        ))}
 
-                        <hr className="my-4" />
+
                         <div className="d-flex justify-content-end mb-4"><a className="btn btn-primary text-uppercase" href="#!">Older
                             Posts →</a></div>
                     </div>
