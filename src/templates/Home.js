@@ -31,14 +31,14 @@ function Home() {
 
                         {blogData.map((blog, index) => (
                             <div className="post-preview" key={index}>
-                                <a href="post.html" key={index}>
-                                    <h2 className="post-title" key={index}>  {blog.title}  </h2>
-                                    <h3 className="post-subtitle" key={index}> {blog.subtitle} </h3>
+                                <a href="post.html" >
+                                    <h2 className="post-title" >  {blog.title}  </h2>
+                                    <h3 className="post-subtitle"> {blog.subtitle} </h3>
                                 </a>
-                                <p className="post-meta" key={index}>
+                                <p className="post-meta" >
                                     Posted by Resty Ochea on April 23, 2022
                                 </p>
-                                <hr className="my-4" key={index} />
+                                <hr className="my-4" />
                             </div>
                         ))}
 
