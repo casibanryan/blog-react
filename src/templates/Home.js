@@ -31,7 +31,7 @@ function Home() {
                             <a href="post.html">
 
                                 <h2 className="post-title">
-                                    {blogData} </h2>
+                                    blogData </h2>
 
                                 <h3 className="post-subtitle">Problems look mighty small from 150 miles up</h3>
                             </a>
