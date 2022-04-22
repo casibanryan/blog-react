@@ -39,7 +39,7 @@ function Home() {
                                 <p className="post-meta" key={index}>
                                     Posted by Resty Ochea on April 23, 2022
                                 </p>
-                                <hr className="my-4" />
+                                <hr className="my-4" key={index} />
                             </div>
                         ))}
 
