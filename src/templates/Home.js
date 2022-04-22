@@ -29,10 +29,9 @@ function Home() {
                 <div className="row gx-4 gx-lg-5 justify-content-center">
                     <div className="col-md-10 col-lg-8 col-xl-7">
 
-
                         {blogData.map((blog, index) => (
-                            <div className="post-preview">
-                                <a href="post.html">
+                            <div className="post-preview" key={index}>
+                                <a href="post.html" key={index}>
                                     <h2 className="post-title" key={index}>  {blog.title}  </h2>
                                     <h3 className="post-subtitle" key={index}> {blog.subtitle} </h3>
                                 </a>
