@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 
-function BlogList({ data }) {
+function BlogList({ blogs }) {
     return (
         <React.Fragment>
-            {data.map((blog, index) => (
+            {blogs.map((blog, index) => (
                 <div className="post-preview" key={index}>
                     <Link to={`/post/${blog.subtitle.split(' ').join('-')}`}>
                         <h2 className="post-title" >  {blog.title}  </h2>
@@ -15,8 +15,7 @@ function BlogList({ data }) {
                     </p>
                     <hr className="my-4" />
                 </div>
-            ))
-            }
+            ))}
         </React.Fragment>
     );
 }

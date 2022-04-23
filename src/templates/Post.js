@@ -47,7 +47,7 @@ function Post() {
                                 </React.Fragment>
                             ))}
                             <h1 className="text-center text-success">Related Blog</h1>
-                            <BlogListPage blog={relatedBlog} />
+                            <BlogListPage blogs={relatedBlog} />
                         </div>
                     </div>
                 </div>
