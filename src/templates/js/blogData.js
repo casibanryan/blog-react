@@ -61,7 +61,7 @@ const blogData = [
 
   {
     title: 'Give Me 10 Minutes, I\'ll Give You The Truth About Wildlife',
-    subtitle: 'One Word: Wildlife',
+    subtitle: 'One Word Wildlife',
     background: wildLifeBg,
     image: wildLifeImg,
     postedOn: postedDate,
