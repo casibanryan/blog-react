@@ -1,3 +1,6 @@
+import homeBg from '../assets/img/home-bg.png';
+
+
 const date = new Date();
 const monthArray = ["January", "February", "March", "April", "May", "June", "July",
   "August", "September", "October", "November", "December"];
@@ -15,6 +18,7 @@ const blogData = [
     title: 'One of the things that makes Cebu popular is its awesome marine life and diving spots.',
     subtitle: 'Amazing underwater life',
     content: 'One of the things that makes Cebu popular is its awesome marine life and diving spots. Just a few minutes drive away from the main city will take you to diving spots with Mactan Island where you can witness a school of sardines swimming every now and then. There are also great diving sites along the Mactan Channel if you don’t want to travel far. But if you want some deep diving adventure, drive 2-4 hours north or south. You can find some school of sardines, thresher sharks, whale sharks and sea turtles along Moalboal’s Panagsama Beach and Pescador Island in the south western region. Malapascua Island, a 3-hr drive up north and a boat ride away is famous for its white tip sharks.',
+    background: homeBg,
     img: 'post-image1',
     postedOn: postedDate,
   },
