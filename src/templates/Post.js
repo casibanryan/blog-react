@@ -46,7 +46,7 @@ function Post() {
                                     {index == 0 ? <a href="#!"><img className="img-fluid" src={blog.image} alt="blog-image" /></a> : null}
                                 </React.Fragment>
                             ))}
-                            <h1 className="post-title">Related Blog</h1>
+                            <h1 className="text-center">Related Blog</h1>
                             <BlogList data={otherBlog} />
                         </div>
                     </div>
