@@ -9,7 +9,7 @@ function Post() {
 
     const { name } = useParams();
     const blog = blogData.find(data => data.subtitle.split(' ').join('-') === name);
-    const otherBlog = blogData.filter(data => data.subtitle.split(' ').join('-') !== name);
+    const relatedBlog = blogData.filter(data => data.subtitle.split(' ').join('-') !== name);
 
     // replace this later with 404 page
     if (!blog) return <h1>Blog does not exist!</h1>
@@ -46,7 +46,7 @@ function Post() {
                                 </React.Fragment>
                             ))}
                             <h1 className="text-center text-success">Related Blog</h1>
-                            <BlogListPage data={otherBlog} />
+                            <BlogListPage data={relatedBlog} />
                         </div>
                     </div>
                 </div>
