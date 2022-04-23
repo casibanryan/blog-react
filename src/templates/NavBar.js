@@ -1,8 +1,8 @@
-import logo from './assets/logo.png';
+import logo from '../../logo.png';
 import { Link } from 'react-router-dom';
 import './css/styles.css';
 import { FaBars } from 'react-icons/fa';
-import { Helmet } from 'react-helmet';
+
 
 
 function NavBar() {
