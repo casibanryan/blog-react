@@ -27,9 +27,6 @@ function NavBar() {
                     </div>
                 </div>
             </nav>
-            <Helmet>
-                <script src="./js/scripts.js" type='text/javascript' />
-            </Helmet>
 
         </>
     );
