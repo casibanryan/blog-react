@@ -28,7 +28,7 @@ function Contact() {
                             <p>Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!</p>
                             <div className="my-5">
 
-                                <form id="contactForm" method="POST">
+                                <form id="contactForm">
                                     <div className="form-floating">
                                         <input className="form-control px-5" id="name" type="text" placeholder="Enter your name..." required />
                                         <label htmlFor="name" className="px-5">Name</label>
