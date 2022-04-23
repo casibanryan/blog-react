@@ -7,6 +7,7 @@ import Post from './templates/Post';
 
 
 function App() {
+
   useEffect(() => {
     window.addEventListener('DOMContentLoaded', () => {
       let scrollPos = 0;
