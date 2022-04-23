@@ -2,6 +2,7 @@ import NavBar from "./NavBar";
 import Footer from './Footer';
 import blogData from './js/blogData';
 import { useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import React from 'react';
 
 function Post() {
