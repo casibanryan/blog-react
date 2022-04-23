@@ -7,7 +7,7 @@ import { useParams } from 'react-router-dom';
 function Post() {
 
     const { name } = useParams();
-    console.log(subtitle);
+    console.log(name);
     const blog = blogData.find(data => data.subtitle === name);
     if (!blog) return <h1>Blog does not exist!</h1>
 
