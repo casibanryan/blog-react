@@ -1,5 +1,7 @@
 import { Helmet } from 'react-helmet';
 import React from 'react';
+import './404.css';
+
 
 const ErrorPage404 = () => (
 
