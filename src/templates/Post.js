@@ -37,12 +37,27 @@ function Post() {
                     <div className="row gx-4 gx-lg-5 justify-content-center">
                         <div className="col-md-10 col-lg-8 col-xl-7">
                             {blog.content.map((paragraph, index) => (
-                                <React.Fragment>
-                                    <p key={index}> {paragraph} </p>
+                                <React.Fragment key={index}>
+                                    <p> {paragraph} </p>
                                     <h2 className="section-heading"> {index == 0 ? blog.subtitle : null} </h2>
                                     {index == 0 ? <a href="#!"><img className="img-fluid" src={blog.image} alt="blog-image" /></a> : null}
                                 </React.Fragment>
                             ))}
+
+
+                            {blogData.map((blog, index) => (
+                                <div className="post-preview" key={index}>
+                                    <Link to={`post/${blog.subtitle.split(' ').join('-')}`}>
+                                        <h2 className="post-title" >  {blog.title}  </h2>
+                                        <h3 className="post-subtitle"> {blog.subtitle} </h3>
+                                    </Link>
+                                    <p className="post-meta" >
+                                        Posted by Resty Ochea on {blog.postedOn}
+                                    </p>
+                                    <hr className="my-4" />
+                                </div>
+                            ))}
+
                         </div>
                     </div>
                 </div>
