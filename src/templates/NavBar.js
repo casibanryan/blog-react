@@ -11,7 +11,7 @@ function NavBar() {
         <>
             <nav className="navbar navbar-expand-lg navbar-light" id="mainNav">
                 <div className="container px-4 px-lg-5">
-                    <a className="navbar-brand" href="/"><img src={rocess.env.PUBLIC_URL + "/logo.png"} style={{ height: 50 }} alt="logo" />
+                    <a className="navbar-brand" href="/"><img src={process.env.PUBLIC_URL + "/logo.png"} style={{ height: 50 }} alt="logo" />
                         hoose Cebu</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
