@@ -8,7 +8,7 @@ function Post() {
 
     const { name } = useParams();
     console.log(name);
-    const blog = blogData.find(data => data.subtitle === name);
+    const blog = blogData.find(data => data.subtitle.split(' ').join('-') === name);
     if (!blog) return <h1>Blog does not exist!</h1>
 
     return (
