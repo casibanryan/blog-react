@@ -9,6 +9,7 @@ function Post() {
 
     const { name } = useParams();
     const blog = blogData.find(data => data.subtitle.split(' ').join('-') === name);
+    conole.log(blog.subtitle);
     const relatedBlog = blogData.filter(data => data.subtitle.split(' ').join('-') !== name);
 
     // replace this later with 404 page
