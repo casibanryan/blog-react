@@ -1,12 +1,9 @@
-//import logo from '../../public/logo.png';
 import { Link } from 'react-router-dom';
 import './css/styles.css';
 import { FaBars } from 'react-icons/fa';
 
 
-
 function NavBar() {
-
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-light" id="mainNav">
