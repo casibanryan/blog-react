@@ -2,7 +2,7 @@
 import underwaterBg from '../assets/img/post-background/underwater-bg.png';
 import fallsBg from '../assets/img/post-background/falls-bg.png'
 import bantayanBg from '../assets/img/post-background/bantayan-bg.png';
-import wildLifeBg from '../assets/img/post-background/wildlifeBg.png';
+import wildLifeBg from '../assets/img/post-background/wildLifeBg.png';
 
 //images
 import fallsImg from '../assets/img/post-image/falls.jpg';
@@ -62,8 +62,8 @@ const blogData = [
   {
     title: 'Give Me 10 Minutes, I\'ll Give You The Truth About Wildlife',
     subtitle: 'One Word: Wildlife',
-    background: wildLifeImg,
-    image: wildLifeBg,
+    background: wildLifeBg,
+    image: wildLifeImg,
     postedOn: postedDate,
     content: [
       'Everything is within easy reach in Cebu, including a number of mountain treks. Each trail offers something for everyone – beginners, hardcore trekkers and all points between. What’s more, the mountainous interior is home to a huge variety of wildlife, including the incredibly rare tarsier. Being nocturnal, they\'re best seen on a night, dawn or dusk tour.Watch for their bulbous eyes, peaking out from trees and bushes.    At 1, 013m above sea level, Osmeña Peak in Dalaguete is the highest point in Cebu, but one of the easiest to conquer.Sirao Peak is one of the most challenging and scenic treks, a four hour hike past hidden waterfalls and breathtaking vistas.The best trek, through relatively untouched forests and hence the best place to spot a tarsier, is the hike to Mt.Babag.Winding its way through thick foliage, along occasionally muddy paths, it takes three hours to complete, finishing near the Chalet Hills, another popular destination.Here you\’ll find the Temple of Leah, which locals say is Cebu\’s Taj Mahal.',
