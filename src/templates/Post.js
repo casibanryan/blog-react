@@ -34,14 +34,13 @@ function Post() {
             <article className="mb-4">
                 <div className="container px-4 px-lg-5">
                     <div className="row gx-4 gx-lg-5 justify-content-center">
-
-                        {blog.content.map((paragraph, index) => (
-                            <div className="col-md-10 col-lg-8 col-xl-7" key={index}>
-                                <p> {paragraph} </p>
-                                <h2 className="section-heading"> {blog.subtitle} </h2>
-                            </div>
-                        ))}
-
+                        <div className="col-md-10 col-lg-8 col-xl-7">
+                            {blog.content.map((paragraph, index) => (
+                                <p key={index}> {paragraph}
+                                    <h2 className="section-heading"> {blog.subtitle} </h2>
+                                </p>
+                            ))}
+                        </div>
                     </div>
                 </div>
             </article>
