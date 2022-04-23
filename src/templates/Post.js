@@ -2,8 +2,7 @@ import NavBar from "./NavBar";
 import Footer from './Footer';
 import blogData from './js/blogData';
 import { useParams } from 'react-router-dom';
-import { Link } from 'react-router-dom';
-import BlogList from './component/BlogList';
+import BlogListPage from './BlogListPage';
 import React from 'react';
 
 function Post() {
@@ -47,7 +46,7 @@ function Post() {
                                 </React.Fragment>
                             ))}
                             <h1 className="text-center text-success">Related Blog</h1>
-                            <BlogList data={otherBlog} />
+                            <BlogListPage data={otherBlog} />
                         </div>
                     </div>
                 </div>

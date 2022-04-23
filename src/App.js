@@ -4,7 +4,7 @@ import Home from './templates/Home';
 import Contact from './templates/Contact';
 import About from './templates/About';
 import Post from './templates/Post';
-
+import BlogListPage from './templates/BlogListPage';
 
 function App() {
 
@@ -41,6 +41,7 @@ function App() {
       <Route path='/' element={<Home />} />
       <Route path='/contact' element={<Contact />} />
       <Route path='about' element={<About />} />
+      <Route path='/blog' element={<BlogListPage />} />
       <Route path='/post/:name' element={<Post />} />
     </Routes>
   );
