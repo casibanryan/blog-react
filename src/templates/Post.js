@@ -35,8 +35,8 @@ function Post() {
                 <div className="container px-4 px-lg-5">
                     <div className="row gx-4 gx-lg-5 justify-content-center">
                         <div className="col-md-10 col-lg-8 col-xl-7">
-                            {blog.content.map((data, index) => (
-                                data[0]
+                            {blog.content.map((paragraph, index) => (
+                                <p key={index}> {paragraph} </p>
                             ))}
 
                             <h2 className="section-heading">Reaching for the Stars</h2>
