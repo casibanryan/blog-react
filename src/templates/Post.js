@@ -2,6 +2,7 @@ import NavBar from "./NavBar";
 import Footer from './Footer';
 import blogData from './js/blogData';
 import { useParams } from 'react-router-dom';
+import React from 'react';
 
 function Post() {
 
@@ -36,9 +37,11 @@ function Post() {
                     <div className="row gx-4 gx-lg-5 justify-content-center">
                         <div className="col-md-10 col-lg-8 col-xl-7">
                             {blog.content.map((paragraph, index) => (
-                                <p key={index}> {paragraph}
-                                    <h2 className="section-heading"> {index == 0 ? blog.subtitle : null}</h2>
-                                </p>
+                                <React.Fragment>
+                                    <p key={index}> {paragraph} </p>
+                                    <h2 className="section-heading"> {index == 0 ? blog.subtitle : null} </h2>
+                                    <a href="#!"><img className="img-fluid" src={blog.image} alt="blog-image" /></a>
+                                </React.Fragment>
                             ))}
                         </div>
                     </div>
