@@ -10,8 +10,10 @@ const ErrorPage404 = () => (
             <div className="outer">
                 <div className="middle">
                     <div className="inner">
-
-                        <div className="inner-circle"><i className="fa fa-home"></i><span>404</span></div>
+                        <div className="inner-circle">
+                            <Link to='/'><i className="fa fa-home"></i></Link>
+                            <span>404</span>
+                        </div>
                         <span className="inner-status">Oops! You're lost</span>
                         <span className="inner-detail">
                             We can not find the page you're looking for.
