@@ -3,24 +3,19 @@ import underwaterBg from '../assets/img/post-background/underwater-bg.png';
 import fallsBg from '../assets/img/post-background/falls-bg.png'
 import bantayanBg from '../assets/img/post-background/bantayan-bg.png';
 import wildLifeBg from '../assets/img/post-background/wildLifeBg.png';
+import foodBg from '../assets/img/post-background/foodBg.png';
+
 
 //images
 import fallsImg from '../assets/img/post-image/falls.jpg';
 import turtleImg from '../assets/img/post-image/turtle.jpg';
 import wildLifeImg from '../assets/img/post-image/wildlife.png';
 import bantayanImg from '../assets/img/post-image/bantayan.png';
+import letchonImg from '../assets/img/post-image/letchon.png';
 
 const date = new Date();
 const monthArray = ["January", "February", "March", "April", "May", "June", "July",
   "August", "September", "October", "November", "December"];
-// random day 
-//const day = Math.ceil(Math.random() * 29 + 1);
-//year
-//const year = date.getFullYear();
-//month
-//const month = monthArray[Math.ceil(Math.random() * 10 + 1)];
-// format
-//const postedDate = `${Math.ceil(Math.random() * 29 + 1)}, ${date.getFullYear()} ${monthArray[Math.ceil(Math.random() * 10 + 1)]}`;
 
 const blogData = [
   {
@@ -78,6 +73,18 @@ const blogData = [
       'Yes, a baby giraffe is a giant baby. It’s born to be taller than the average human. Aside from being 6ft tall, a calf usually weighs 220 pounds.',
       '5. Did you know that a baby giraffe gets its spot patterns from its mother?',
       'The orange spot patterns in a baby giraffe are unique. The calf gets those spot patterns from its mother, according to new research. In a study published in the PeerJ journal, scientists Derek Lee, Monica Bond, and Douglas Cavener found that certain aspects of a giraffe’s spot pattern are heritable. In the same study, the scientists said that these inherited spots impact a young giraffe’s likelihood of survival. The spot patterns help protect them from predators in the wild and also help maintain the body temperature.'
+    ]
+  },
+
+  {
+    title: 'Cebu is home to some of the island\'s most exotic dishes',
+    subtitle: 'The Food',
+    background: foodBg,
+    image: letchonImg,
+    postedOn: `${Math.ceil(Math.random() * 29 + 1)}, ${date.getFullYear()} ${monthArray[Math.ceil(Math.random() * 10 + 1)]}`,
+    content: [
+      'A mouthwatering mix of Chinese-inspired dishes and local Filipino staples, street food in Cebu is a gastronomic delight. From steamed rice and siomai to the Cebuano staple ginabot, there is something to suit every taste. Feeling brave ? Cebu is home to some of the island\'s most exotic dishes like bakasi (salt-water eels) and tuslob buwa (pig brains). Its lechon (roast pig) is legendary too. Celebrity chef Anthony Bourdain declared that it was the best pork he\’d ever tasted.In Cebu City, head to Larsian’s, a hawker - type centre with an ever- popular barbecue.If the noise and chaos proves too much to handle, try the Abaseria Café and Deli for a more sophisticated dining experience.',
+      '“Lechon” has already been considered as a national dish and has become a huge hit that gatherings, feasts, parties – or even a plain visit to Cebu will not be complete without having a taste of the finger-licking roasted suckling pig.And there is definitely no need to fret where to find one because lechon is available nearly in all corners of the island.But, if you want the best- tasting ones that will satisfy your gastronomic cravings, make sure to drop by any of these places: ',
     ]
   }
 
