@@ -1,12 +1,14 @@
+//backgrounds
 import underwaterBg from '../assets/img/post-background/underwater-bg.png';
 import fallsBg from '../assets/img/post-background/falls-bg.png'
-import fallsImg from '../assets/img/post-image/falls.jpg';
-import turtleImg from '../assets/img/post-image/turtle.jpg';
-import bantayanImg from '../assets/img/post-image/bantayan.png';
 import bantayanBg from '../assets/img/post-background/bantayan-bg.png';
-import wildLifeImg from '../assets/img/post-image/wildlife.png';
 import wildLifeBg from '../assets/img/post-background/wildlifeBg.png';
 
+//images
+import fallsImg from '../assets/img/post-image/falls.jpg';
+import turtleImg from '../assets/img/post-image/turtle.jpg';
+import wildLifeImg from '../assets/img/post-image/wildlife.png';
+import bantayanImg from '../assets/img/post-image/bantayan.png';
 
 const date = new Date();
 const monthArray = ["January", "February", "March", "April", "May", "June", "July",
