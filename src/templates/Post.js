@@ -4,16 +4,18 @@ import blogData from './js/blogData';
 import { useParams } from 'react-router-dom';
 import BlogList from './component/BlogList';
 import React from 'react';
+import ErrorPage404 from "./component/404";
 
 function Post() {
 
     const { name } = useParams();
+    //finding the correct data
     const blog = blogData.find(data => data.subtitle.split(' ').join('-') === name);
-    console.log(blog.subtitle.split(' ').join('-'));
+    // filtering the data 
     const relatedBlog = blogData.filter(data => data.subtitle.split(' ').join('-') !== name);
-    console.log(relatedBlog);
-    // replace this later with 404 page
-    if (!blog) return <h1>Blog does not exist!</h1>
+
+    // error page
+    if (!blog) return <ErrorPage404 />;
 
     return (
         <>
