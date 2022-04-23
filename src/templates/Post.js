@@ -11,7 +11,7 @@ function Post() {
     const blog = blogData.find(data => data.subtitle.split(' ').join('-') === name);
     console.log(blog.subtitle);
     const relatedBlog = blogData.filter(data => data.subtitle.split(' ').join('-') !== name);
-
+    console.log(relatedBlog);
     // replace this later with 404 page
     if (!blog) return <h1>Blog does not exist!</h1>
 
