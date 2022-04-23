@@ -3,12 +3,14 @@ import Footer from './Footer';
 import blogData from './js/blogData';
 import { useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom';
+import BlogList from './component/BlogList';
 import React from 'react';
 
 function Post() {
 
     const { name } = useParams();
     const blog = blogData.find(data => data.subtitle.split(' ').join('-') === name);
+    const otherBlog = blogData.filter(data => data.subtitle.split(' ').join('-') !== name);
 
     // replace this later with 404 page
     if (!blog) return <h1>Blog does not exist!</h1>
@@ -44,8 +46,7 @@ function Post() {
                                     {index == 0 ? <a href="#!"><img className="img-fluid" src={blog.image} alt="blog-image" /></a> : null}
                                 </React.Fragment>
                             ))}
-
-
+                            <BlogList data={otherBlog} />
                         </div>
                     </div>
                 </div>
