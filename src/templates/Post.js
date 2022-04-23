@@ -37,7 +37,7 @@ function Post() {
                         <div className="col-md-10 col-lg-8 col-xl-7">
                             {blog.content.map((paragraph, index) => (
                                 <p key={index}> {paragraph}
-                                    <h2 className="section-heading"> {blog.subtitle} </h2>
+                                    <h2 className="section-heading"> {index == 0 ? blog.subtitle : null}</h2>
                                 </p>
                             ))}
                         </div>
