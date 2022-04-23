@@ -5,7 +5,7 @@ import React from 'react';
 
 const BlogListPage = () => (
     <React.Fragment>
-        <BlogList data={blogData} />
+        <BlogList blog={blogData} />
     </React.Fragment>
 )
 
