@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet';
 import React from 'react';
 import './404.css';
-
+import { Link } from 'react-router-dom';
 
 const ErrorPage404 = () => (
 
@@ -15,9 +15,9 @@ const ErrorPage404 = () => (
                         <span className="inner-status">Oops! You're lost</span>
                         <span className="inner-detail">
                             We can not find the page you're looking for.
-                            <a href="#" className="btn btn-info mtl"><i className="fa fa-home"></i>&nbsp;
+                            <Link to='/' className="btn btn-info mtl"><i className="fa fa-home"></i>&nbsp;
                                 Return home
-                            </a>
+                            </Link>
                         </span>
                     </div>
                 </div>
