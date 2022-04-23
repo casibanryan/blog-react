@@ -9,7 +9,7 @@ function Post() {
 
     const { name } = useParams();
     const blog = blogData.find(data => data.subtitle.split(' ').join('-') === name);
-    console.log(blog.subtitle);
+    console.log(blog.subtitle.split(' ').join('-'));
     const relatedBlog = blogData.filter(data => data.subtitle.split(' ').join('-') !== name);
     console.log(relatedBlog);
     // replace this later with 404 page
@@ -47,6 +47,7 @@ function Post() {
                                 </React.Fragment>
                             ))}
                             <h1 className="text-center text-success">Related Blog</h1>
+                            {relatedBlog}
                             <BlogListPage blogs={relatedBlog} />
                         </div>
                     </div>
