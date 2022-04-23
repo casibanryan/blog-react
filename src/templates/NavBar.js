@@ -1,4 +1,4 @@
-import logo from '../../logo.png';
+import logo from '../../public/logo.png';
 import { Link } from 'react-router-dom';
 import './css/styles.css';
 import { FaBars } from 'react-icons/fa';
