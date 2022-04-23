@@ -21,11 +21,10 @@ function Post() {
                         <div className="col-md-10 col-lg-8 col-xl-7">
                             <div className="post-heading">
                                 <h1> {blog.title} </h1>
-                                <h2 className="subheading">Problems look mighty small from 150 miles up</h2>
+                                <h2 className="subheading">{blog.subtitle}</h2>
                                 <span className="meta">
-                                    Posted by
-                                    <a href="#!">Start Bootstrap</a>
-                                    on August 24, 2022
+                                    Posted by Resty Ochea
+                                    on {blog.postedOn}
                                 </span>
                             </div>
                         </div>
