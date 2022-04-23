@@ -31,7 +31,7 @@ function Contact() {
                                 <form id="contactForm" method="POST">
                                     <div className="form-floating">
                                         <input className="form-control" id="name" type="text" placeholder="Enter your name..." required />
-                                        <label htmlFor="name" className="text-center">Name</label>
+                                        <label htmlFor="name" className="px-5">Name</label>
                                     </div>
 
                                     <div className="form-floating">
