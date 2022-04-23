@@ -7,8 +7,9 @@ import { useParams } from 'react-router-dom';
 function Post() {
 
     const { name } = useParams();
-    console.log(name);
     const blog = blogData.find(data => data.subtitle.split(' ').join('-') === name);
+
+    // replace this later with 404 page
     if (!blog) return <h1>Blog does not exist!</h1>
 
     return (
@@ -19,7 +20,7 @@ function Post() {
                     <div className="row gx-4 gx-lg-5 justify-content-center">
                         <div className="col-md-10 col-lg-8 col-xl-7">
                             <div className="post-heading">
-                                <h1>title</h1>
+                                <h1> {blog.title} </h1>
                                 <h2 className="subheading">Problems look mighty small from 150 miles up</h2>
                                 <span className="meta">
                                     Posted by
