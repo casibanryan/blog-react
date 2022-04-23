@@ -40,7 +40,7 @@ function Post() {
                                 <React.Fragment>
                                     <p key={index}> {paragraph} </p>
                                     <h2 className="section-heading"> {index == 0 ? blog.subtitle : null} </h2>
-                                    <a href="#!"><img className="img-fluid" src={blog.image} alt="blog-image" /></a>
+                                    {index == 0 ? <a href="#!"><img className="img-fluid" src={blog.image} alt="blog-image" /></a> : null}
                                 </React.Fragment>
                             ))}
                         </div>
