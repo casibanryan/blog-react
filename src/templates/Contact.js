@@ -30,23 +30,23 @@ function Contact() {
 
                                 <form id="contactForm" method="POST">
                                     <div className="form-floating">
-                                        <input className="form-control" id="name" type="text" placeholder="Enter your name..." required />
+                                        <input className="form-control px-5" id="name" type="text" placeholder="Enter your name..." required />
                                         <label htmlFor="name" className="px-5">Name</label>
                                     </div>
 
                                     <div className="form-floating">
-                                        <input className="form-control" id="email" type="email" placeholder="Enter your email..." required />
-                                        <label htmlFor="email">Email address</label>
+                                        <input className="form-control px-5" id="email" type="email" placeholder="Enter your email..." required />
+                                        <label htmlFor="email" className="px-5">Email address</label>
 
                                     </div>
                                     <div className="form-floating">
-                                        <input className="form-control" id="phone" type="tel" placeholder="Enter your phone number..." required />
-                                        <label htmlFor="phone">Phone Number</label>
+                                        <input className="form-control px-5" id="phone" type="tel" placeholder="Enter your phone number..." required />
+                                        <label htmlFor="phone" className="px-5">Phone Number</label>
                                     </div>
 
                                     <div className="form-floating">
-                                        <textarea className="form-control" id="message" placeholder="Enter your message here..." style={{ height: "12rem" }} required></textarea>
-                                        <label htmlFor="message">Message</label>
+                                        <textarea className="form-control px-5" id="message" placeholder="Enter your message here..." style={{ height: "12rem" }} required></textarea>
+                                        <label htmlFor="message" className="px-5">Message</label>
                                     </div>
                                     <br />
                                     <button className="btn btn-primary text-uppercase" id="submitButton" type="submit">Send</button>
