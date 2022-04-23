@@ -37,7 +37,6 @@ function Post() {
                         {blog.map((paragraph, index) => (
                             <div className="col-md-10 col-lg-8 col-xl-7" key={index}>
                                 <p> {paragraph} </p>
-                                <h2 className="section-heading"> {blog.subtitle} </h2>
                             </div>
                         ))}
 
