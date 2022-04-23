@@ -28,10 +28,10 @@ function Contact() {
                             <p>Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!</p>
                             <div className="my-5">
 
-                                <form id="contactForm" metthod="POST">
+                                <form id="contactForm" method="POST">
                                     <div className="form-floating">
                                         <input className="form-control" id="name" type="text" placeholder="Enter your name..." required />
-                                        <label htmlFor="name">Name</label>
+                                        <label htmlFor="name" className="text-center">Name</label>
                                     </div>
 
                                     <div className="form-floating">
